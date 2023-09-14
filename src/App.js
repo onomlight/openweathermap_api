@@ -5,7 +5,7 @@ import styled from "styled-components";
 function App() {
   const [location, setLocation] = useState("");
   const [result, setResult] = useState({});
-  const API_KEY = "df139527fc0db3ecdd5caca759389635"; // 각자 개인의 API KEY를 발급받아 사용해주세요.
+  const API_KEY = "00cdRlwrMjS4gVVR2JIDZgF4bKenwV21kqsrtLQamIji3Hg7C8SsVF7jMrJVwfCbgVbTBnyDNkNcVheAweYUFA%3D%3D";
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_KEY}`;
   const searchWeather = async (e) => {
